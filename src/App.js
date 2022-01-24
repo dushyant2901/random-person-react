@@ -41,7 +41,7 @@ const App = () => {
       };
       setPerson(newPerson);
       setLoading(false);
-      setValue("Random Person")
+      setValue(newPerson.name)
     setTitle("name")
     } catch (error) {
       console.log(error);
